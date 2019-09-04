@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>AI Persona Core Crafting</name>
+  <author>Th3.Po!nT</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>
+  This mod enables AI Persona Core crafting at the Fabrication Bench. 
+
+  Requirements:
+  - Research: AI Persona Core Crafting (new ultra category research project)
+  - Crafting: a Pawn with level 15 crafting and intellectual
+
+  Costs:
+  - 80 Gold
+  - 200 Uranium
+  - 8 Advanced Components
+
+  Compatibility:
+  - There are no known issues with other mods.
+  - Safe to add and remove from saves.
+  - Add anywhere in your load order.
+  </description>
+</ModMetaData>

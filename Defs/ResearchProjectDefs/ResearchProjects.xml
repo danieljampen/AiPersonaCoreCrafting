@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>AIPersonaCoreCrafting</defName>
+		<label>AI Persona Core Crafting</label>
+		<description>Allows you to craft AI Persona Core.</description>
+		<baseCost>3500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>ShipComputerCore</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

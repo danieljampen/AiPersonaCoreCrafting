@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>ConstructAIPersonaCore</defName>
+    <label>AI Persona Core</label>
+    <description>Construct an AI persona core.</description>
+    <jobString>Construct an AI persona core.</jobString>
+    <workAmount>50000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products>
+      <AIPersonaCore>1</AIPersonaCore>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Uranium</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+			<Intellectual>15</Intellectual>
+		</skillRequirements>
+    <researchPrerequisite>AIPersonaCoreCrafting</researchPrerequisite>
+  </RecipeDef> 
+</Defs>
